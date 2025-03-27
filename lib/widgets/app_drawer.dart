@@ -6,10 +6,10 @@ class AppDrawer extends StatelessWidget {
   final Function(String) onNavigate;
 
   const AppDrawer({
-    Key? key,
+    super.key,
     required this.currentRoute,
     required this.onNavigate,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

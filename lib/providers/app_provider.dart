@@ -11,7 +11,7 @@ class AppProvider with ChangeNotifier {
   final MockData _mockData = MockData();
   
   // State variables
-  List<CartItem> _cartItems = [];
+  final List<CartItem> _cartItems = [];
   List<Recipe> _customRecipes = [];
   List<Order> _orders = [];
   List<Ingredient> _ingredients = [];

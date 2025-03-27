@@ -9,12 +9,12 @@ class SaveRecipeModal extends StatefulWidget {
   final VoidCallback onClose;
 
   const SaveRecipeModal({
-    Key? key,
+    super.key,
     required this.selectedIngredients,
     required this.totalPrice,
     required this.onSave,
     required this.onClose,
-  }) : super(key: key);
+  });
 
   @override
   State<SaveRecipeModal> createState() => _SaveRecipeModalState();

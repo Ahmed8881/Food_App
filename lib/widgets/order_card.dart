@@ -6,8 +6,7 @@ class OrderCard extends StatelessWidget {
   final Order order;
   final VoidCallback onReorder;
 
-  const OrderCard({Key? key, required this.order, required this.onReorder})
-    : super(key: key);
+  const OrderCard({super.key, required this.order, required this.onReorder});
 
   @override
   Widget build(BuildContext context) {
@@ -125,7 +124,7 @@ class OrderCard extends StatelessWidget {
                         ),
                       ),
                     )
-                    .toList(),
+                    ,
               ],
             ),
           ),

@@ -9,11 +9,11 @@ class IngredientCard extends StatelessWidget {
   final VoidCallback onTap;
 
   const IngredientCard({
-    Key? key,
+    super.key,
     required this.ingredient,
     required this.isSelected,
     required this.onTap,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

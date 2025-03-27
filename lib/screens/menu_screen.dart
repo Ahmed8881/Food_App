@@ -7,7 +7,7 @@ import '../widgets/category_tabs.dart';
 import '../theme/app_theme.dart';
 
 class MenuScreen extends StatefulWidget {
-  const MenuScreen({Key? key}) : super(key: key);
+  const MenuScreen({super.key});
 
   @override
   State<MenuScreen> createState() => _MenuScreenState();

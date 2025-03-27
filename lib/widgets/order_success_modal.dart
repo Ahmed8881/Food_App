@@ -6,10 +6,10 @@ class OrderSuccessModal extends StatelessWidget {
   final VoidCallback onClose;
 
   const OrderSuccessModal({
-    Key? key,
+    super.key,
     required this.orderNumber,
     required this.onClose,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

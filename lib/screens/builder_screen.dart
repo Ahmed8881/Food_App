@@ -10,7 +10,7 @@ import '../widgets/save_recipe_modal.dart';
 import '../theme/app_theme.dart';
 
 class BuilderScreen extends StatefulWidget {
-  const BuilderScreen({Key? key}) : super(key: key);
+  const BuilderScreen({super.key});
 
   @override
   State<BuilderScreen> createState() => _BuilderScreenState();

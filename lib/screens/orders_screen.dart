@@ -5,7 +5,7 @@ import '../widgets/app_drawer.dart';
 import '../widgets/order_card.dart';
 
 class OrdersScreen extends StatelessWidget {
-  const OrdersScreen({Key? key}) : super(key: key);
+  const OrdersScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

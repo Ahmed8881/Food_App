@@ -9,11 +9,11 @@ class RecipeCard extends StatelessWidget {
   final VoidCallback onAddToCart;
 
   const RecipeCard({
-    Key? key,
+    super.key,
     required this.recipe,
     required this.onTap,
     required this.onAddToCart,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

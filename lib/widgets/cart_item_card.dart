@@ -10,12 +10,12 @@ class CartItemCard extends StatelessWidget {
   final Function(int) onRemove;
 
   const CartItemCard({
-    Key? key,
+    super.key,
     required this.cartItem,
     required this.onIncrease,
     required this.onDecrease,
     required this.onRemove,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

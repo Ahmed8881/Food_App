@@ -6,7 +6,7 @@ import '../widgets/recipe_card.dart';
 import '../theme/app_theme.dart';
 
 class RecipesScreen extends StatelessWidget {
-  const RecipesScreen({Key? key}) : super(key: key);
+  const RecipesScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

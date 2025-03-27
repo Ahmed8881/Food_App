@@ -8,12 +8,12 @@ class CheckoutModal extends StatefulWidget {
   final VoidCallback onClose;
 
   const CheckoutModal({
-    Key? key,
+    super.key,
     required this.total,
     required this.isLoading,
     required this.onCheckout,
     required this.onClose,
-  }) : super(key: key);
+  });
 
   @override
   State<CheckoutModal> createState() => _CheckoutModalState();

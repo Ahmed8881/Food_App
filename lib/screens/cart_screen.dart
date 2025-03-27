@@ -8,7 +8,7 @@ import '../widgets/order_success_modal.dart';
 import '../theme/app_theme.dart';
 
 class CartScreen extends StatefulWidget {
-  const CartScreen({Key? key}) : super(key: key);
+  const CartScreen({super.key});
 
   @override
   State<CartScreen> createState() => _CartScreenState();

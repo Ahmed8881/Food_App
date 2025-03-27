@@ -199,7 +199,7 @@ class MockData {
         name: 'Chicken Sandwich',
         price: '\$7.99',
         imageUrl:
-            'https://images.unsplash.com/photo-1539252554935-80c8d6f3f7af?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&h=300&q=80',
+            'https://www.eatingwell.com/thmb/lWAiwknQ9yapq6UuXAYrUdrcKbk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Rotisserie-Chicken-Sandwich-202-2000-485b673fe411460e95b512fbf805a5d9.jpg',
         ingredients: [
           ingredients[1], // Whole Wheat Bun
           ingredients[3], // Chicken Patty
@@ -301,4 +301,3 @@ class MockData {
     ];
   }
 }
- 
